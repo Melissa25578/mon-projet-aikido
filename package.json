@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "app.js",
   "dependencies": {
+    "axios": "0.18.0",
     "express": "4.16.0",
-    "lodash": "4.17.15",
-    "axios": "0.18.0"
+    "helmet": "8.2.0",
+    "lodash": "4.17.15"
   }
 }

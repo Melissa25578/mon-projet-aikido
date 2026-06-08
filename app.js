@@ -1,7 +1,10 @@
 const express = require("express");
+const helmet = require("helmet");
 const lodash = require("lodash");
 
 const app = express();
+
+app.use(helmet());
 
 app.get("/", (req, res) => {
     let userInput = req.query.name;
